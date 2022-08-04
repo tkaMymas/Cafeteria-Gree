@@ -12,13 +12,13 @@ p{
 /*Encabezados*/
 h1, h2{
     text-align:center;
-    color:rgb(230, 230, 230);
+    color:rgb(34, 29, 27);
 }
 h1.h1CafeCas{
     font-family:Georgia;
     font-style:initial;
     font-size:50px;
-    color:black;
+    color:rgb(34, 29, 27);
 }
 
 /*Información*/
@@ -30,7 +30,7 @@ div.divInfo{
 p.pInfo{
     font-family:Georgia;
     font-style:italic;
-    text-align:justify;
+    text-align:center;
     color:rgb(230, 230, 230);
     font-size:20px;
     padding-left:6px;
