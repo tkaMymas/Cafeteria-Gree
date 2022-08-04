@@ -1,0 +1,137 @@
+/*Fondo*/
+body{
+    background-color:rgb(221, 221, 221);
+}
+/*Parágrafos*/
+p{
+    font-family:Georgia;
+    font-style:italic;
+    color:rgb(230, 230, 230);
+    font-size:20px;
+}
+/*Encabezados*/
+h1, h2{
+    text-align:center;
+    color:rgb(230, 230, 230);
+}
+h1.h1CafeCas{
+    font-family:Georgia;
+    font-style:initial;
+    font-size:50px;
+    color:black;
+}
+
+/*Información*/
+div.divInfo{
+    background-color:rgb(103, 134, 113);
+    border:3px solid rgb(103, 134, 113);
+    border-radius:10px;
+}
+p.pInfo{
+    font-family:Georgia;
+    font-style:italic;
+    text-align:justify;
+    color:rgb(230, 230, 230);
+    font-size:20px;
+    padding-left:6px;
+    padding-right:6px;
+}
+
+/*Hr*/
+hr.hrInvi{
+    visibility:hidden;
+}
+
+/*Menu de Cafes*/
+div.divMenu{
+    background-color:rgb(103, 134, 113);
+    border:3px solid rgb(103, 134, 113);
+    border-radius:10px;
+}
+p.pMenu{
+    text-align:center;
+}
+p.DesCafe{
+    text-align:justify;
+    padding-left:10px;
+    padding-right:10px;
+}
+/*Diseño Imagenes*/
+div.Cafes{
+    text-align:center;
+}
+div.CafesText{
+    text-align:center;
+}
+/*Imagenes*/
+.Latte{
+    border:3px solid;
+    width:250px;
+    height:200px;
+}
+.Moca{
+    border:3px solid;
+    width:250px;
+    height:200px;
+}
+.Cappuccino{
+    border:3px solid;
+    width:250px;
+    height:200px;
+}
+.Expreso{
+    border:3px solid;
+    width:250px;
+    height:200px;
+}
+.Helado{
+    border:3px solid;
+    width:250px;
+    height:200px;
+}
+/*Links*/
+a.aHistorias{
+    display:block;
+    text-align:center;
+    text-decoration:none;
+    font-family:Georgia;
+    font-style:oblique;
+    color:rgb(0, 0, 0);
+    font-size:20px;
+}
+
+/*Contactos*/
+hr.HrContacto{
+    border:1px solid rgb(199, 199, 199);
+}
+div.Contactos{
+    display:block;
+    padding-left:15px;
+}
+#Links{
+    display: inline-block;
+    padding-left:235px;
+    padding-bottom:5px;
+}
+#Numeros{
+    display:inline-block;
+    padding-left:450px;
+}
+h1.h1Contactos{
+    font-family:Georgia;
+    text-align:center;
+    color:black;
+}
+p.pContactos{
+    font-family:Georgia;
+    text-align:center;
+    color:black;
+}
+a.aContactos{
+    display:block;
+    text-align:center;
+    text-decoration:none;
+    font-family:Georgia;
+    font-size:20px;
+    color:rgb(58, 70, 122);
+}
