@@ -1,0 +1,70 @@
+/*Fondo*/
+body{
+    background-color:rgb(221, 221, 221);
+}
+/*Titulo*/
+h1.h1Historias{
+    text-align:center;
+}
+
+/*Barra  de Navegación*/
+ul.BarraMenu{
+    display:flex;
+    background-color:rgb(103, 134, 113);
+    list-style-type:none;
+    margin:0px;
+    padding:8px;
+}
+li a{
+    color:rgb(34, 29, 27);
+    text-align:center;
+    text-decoration:none;
+    font-family:Georgia;
+    font-size:18px;
+    padding:8px;
+}
+
+/*Contactos*/
+hr.HrContacto{
+    border:1px solid rgb(199, 199, 199);
+}
+div.Contactos{
+    display:block;
+    padding-left:15px;
+}
+div.divLinks{
+    display:flex;
+    justify-content:center;
+}
+.links{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    padding-left:25px;
+}
+.links p{
+    padding:10px
+}
+.numeros{
+    display:flex;
+    justify-content:center;
+}
+h1.h1Contactos{
+    font-family:Georgia;
+    text-align:center;
+    color:black;
+}
+p.pContactos{
+    font-family:Georgia;
+    font-size:20px;
+    text-align:center;
+    color:black;
+}
+a.aContactos{
+    display:block;
+    text-align:center;
+    text-decoration:none;
+    font-family:Georgia;
+    font-size:20px;
+    color:rgb(58, 70, 122);
+}
