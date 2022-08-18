@@ -2,6 +2,7 @@
 body{
     background-color:rgb(221, 221, 221);
 }
+
 /*Barra de Navegación*/
 ul.BarraMenu{
     display:flex;
@@ -18,6 +19,16 @@ li a{
     font-size:18px;
     padding:8px;
 }
+
+/*Titulo principal*/
+h1.tituloPrincipal{
+    text-align:center;
+    font-family:Georgia;
+    font-style:initial;
+    font-size:35px;
+    color:rgb(34, 29, 27);
+}
+
 /*Parágrafos*/
 p{
     font-family:Georgia;
@@ -25,15 +36,10 @@ p{
     color:rgb(230, 230, 230);
     font-size:20px;
 }
+
 /*Encabezados*/
 h1, h2{
     text-align:center;
-    color:rgb(34, 29, 27);
-}
-h1.h1CafeCas{
-    font-family:Georgia;
-    font-style:initial;
-    font-size:50px;
     color:rgb(34, 29, 27);
 }
 
@@ -117,7 +123,7 @@ a.aHistorias{
 }
 
 /*Contactos*/
-hr.HrContacto{
+hr.hrContacto{
     border:1px solid rgb(199, 199, 199);
 }
 div.Contactos{

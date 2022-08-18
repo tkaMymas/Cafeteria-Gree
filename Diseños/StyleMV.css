@@ -3,7 +3,7 @@ body{
     background-color:rgb(221, 221, 221);
 }
 
-/*Barra  de Navegación*/
+/*Barra de Navegación*/
 ul.BarraMenu{
     display:flex;
     background-color:rgb(103, 134, 113);
@@ -29,67 +29,16 @@ h1.tituloPrincipal{
     color:rgb(34, 29, 27);
 }
 
-/*Paragrafos*/
-p{
-    text-align:justify;
-    font-family:Georgia;
-    font-style:italic;
-    color:rgb(230, 230, 230);
-    font-size:20px;
-}
-
-/*Encabezados*/
-h1, h2{
-    text-align:center;
-    color:rgb(34, 29, 27);
-}
-h1.h1CafeCas{
-    font-family:Georgia;
-    font-style:initial;
-    font-size:50px;
-    color:rgb(34, 29, 27);
-}
-
-/*HR's*/
-hr.hrInvisible{
-    visibility:hidden;
-}
-
-/*Div historias*/
-div.divHistorias{
+/*Información*/
+div.divInfo{
     background-color:rgb(103, 134, 113);
     border:3px solid rgb(103, 134, 113);
     border-radius:10px;
 }
 
-/*Imagenes historias*/
-div.divImagenes{
-    text-align:center;
-}
-.Latte{
-    border:3px solid;
-    width:250px;
-    height:200px;
-}
-.Moca{
-    border:3px solid;
-    width:250px;
-    height:200px;
-}
-.Cappuccino{
-    border:3px solid;
-    width:250px;
-    height:200px;
-}
-.Expreso{
-    border:3px solid;
-    width:250px;
-    height:200px;
-}
-.Helado{
-    border:3px solid;
-    width:250px;
-    height:200px;
+/*HR's*/
+hr.hrInvisible{
+    visibility:hidden;
 }
 
 /*Contactos*/
