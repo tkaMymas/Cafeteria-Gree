@@ -30,13 +30,6 @@ h1.tituloPrincipal {
     color: rgb(34, 29, 27);
 }
 
-/*Encabezados*/
-h1,
-h2 {
-    text-align: center;
-    color: rgb(34, 29, 27);
-}
-
 /*Parágrafos*/
 p.pTextoGeneral {
     font-family: Georgia;
@@ -52,6 +45,13 @@ p.pTexto {
 
 p.pTextoCentrado {
     text-align: center;
+}
+
+/*Encabezados*/
+h1,
+h2 {
+    text-align: center;
+    color: rgb(34, 29, 27);
 }
 
 /*Información*/
@@ -94,6 +94,37 @@ div.Cafes {
 
 div.CafesText {
     text-align: center;
+}
+
+/*Imagenes*/
+.Latte {
+    border: 3px solid;
+    width: 250px;
+    height: 200px;
+}
+
+.Moca {
+    border: 3px solid;
+    width: 250px;
+    height: 200px;
+}
+
+.Cappuccino {
+    border: 3px solid;
+    width: 250px;
+    height: 200px;
+}
+
+.Expreso {
+    border: 3px solid;
+    width: 250px;
+    height: 200px;
+}
+
+.Helado {
+    border: 3px solid;
+    width: 250px;
+    height: 200px;
 }
 
 /*Links*/
