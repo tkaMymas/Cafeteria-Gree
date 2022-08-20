@@ -1,0 +1,157 @@
+/*Fondo*/
+body {
+    background-color: rgb(221, 221, 221);
+}
+
+/*Barra de Navegación*/
+ul.BarraMenu {
+    display: flex;
+    background-color: rgb(103, 134, 113);
+    list-style-type: none;
+    margin: 0px;
+    padding: 10px;
+}
+
+li a {
+    color: rgb(34, 29, 27);
+    text-align: center;
+    text-decoration: none;
+    font-family: Georgia;
+    font-size: 18px;
+    padding: 8px;
+}
+
+/*Titulo principal*/
+h1.tituloPrincipal {
+    text-align: center;
+    font-family: Georgia;
+    font-style: initial;
+    font-size: 35px;
+    color: rgb(34, 29, 27);
+}
+
+/*Encabezados*/
+h1,
+h2 {
+    text-align: center;
+    color: rgb(34, 29, 27);
+}
+
+/*Parágrafos*/
+p.pTextoGeneral {
+    font-family: Georgia;
+    font-style: italic;
+    color: rgb(230, 230, 230);
+    font-size: 20px;
+    padding: 0px 10px 0px 10px;
+}
+
+p.pTexto {
+    text-align: justify;
+}
+
+p.pTextoCentrado {
+    text-align: center;
+}
+
+/*Información*/
+div.divInfo {
+    background-color: rgb(103, 134, 113);
+    border: 3px solid rgb(103, 134, 113);
+    border-radius: 10px;
+}
+
+/*HR's*/
+hr.hrInvisible {
+    visibility: hidden;
+}
+
+hr.hrContacto {
+    border: 1px solid rgb(199, 199, 199);
+}
+
+/*Menu de Cafes*/
+div.divMenu {
+    background-color: rgb(103, 134, 113);
+    border: 3px solid rgb(103, 134, 113);
+    border-radius: 10px;
+}
+
+p.pMenu {
+    text-align: center;
+}
+
+p.DesCafe {
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/*Diseño Imagenes*/
+div.Cafes {
+    text-align: center;
+}
+
+div.CafesText {
+    text-align: center;
+}
+
+/*Links*/
+a.aHistorias {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-family: Georgia;
+    font-style: oblique;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+/*Contactos*/
+div.Contactos {
+    display: block;
+    padding-left: 15px;
+}
+
+div.divLinks {
+    display: flex;
+    justify-content: center;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 25px;
+}
+
+.links p {
+    padding: 10px
+}
+
+.numeros {
+    display: flex;
+    justify-content: center;
+}
+
+h1.h1Contactos {
+    font-family: Georgia;
+    text-align: center;
+    color: black;
+}
+
+p.pContactos {
+    font-family: Georgia;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+}
+
+a.aContactos {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-family: Georgia;
+    font-size: 20px;
+    color: rgb(58, 70, 122);
+}
