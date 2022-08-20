@@ -9,7 +9,7 @@ ul.BarraMenu{
     background-color:rgb(103, 134, 113);
     list-style-type:none;
     margin:0px;
-    padding:8px;
+    padding:10px;
 }
 li a{
     color:rgb(34, 29, 27);
@@ -34,6 +34,32 @@ div.divInfo{
     background-color:rgb(103, 134, 113);
     border:3px solid rgb(103, 134, 113);
     border-radius:10px;
+}
+
+/*Encabezados*/
+h2.h2MyV{
+    text-align:center;
+    color:rgb(34, 29, 27);
+}
+
+/*Parágrafos*/
+p.pTexto{
+    text-align:justify;
+    font-family:Georgia;
+    font-style:italic;
+    color:rgb(230, 230, 230);
+    font-size:20px;
+    padding-left:10px;
+    padding-right:10px;
+}
+p.pTextoPrin{
+    text-align:center;
+    font-family:Georgia;
+    font-style:italic;
+    color:rgb(230, 230, 230);
+    font-size:20px;
+    padding-left:10px;
+    padding-right:10px;
 }
 
 /*HR's*/
