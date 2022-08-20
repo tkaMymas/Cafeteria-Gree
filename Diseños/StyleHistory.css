@@ -18,16 +18,27 @@ li a {
     text-decoration: none;
     font-family: Georgia;
     font-size: 18px;
+    font-weight: bold;
     padding: 8px;
 }
 
 /*Titulo principal*/
 h1.tituloPrincipal {
     text-align: center;
+    font-size: 32px;
+}
+
+/*Encabezados*/
+h1,
+h2 {
     font-family: Georgia;
     font-style: initial;
-    font-size: 35px;
     color: rgb(34, 29, 27);
+    font-size: 22px;
+}
+
+h2.tituloSecundario {
+    text-align: center;
 }
 
 /*Parágrafos*/
@@ -45,13 +56,6 @@ p.pTexto {
 
 p.pTextoCentrado {
     text-align: center;
-}
-
-/*Encabezados*/
-h1,
-h2 {
-    text-align: center;
-    color: rgb(34, 29, 27);
 }
 
 h1.h1CafeCas {
@@ -140,16 +144,15 @@ div.divLinks {
 }
 
 h1.h1Contactos {
-    font-family: Georgia;
     text-align: center;
-    color: black;
+    font-size: 26px;
 }
 
 p.pContactos {
     font-family: Georgia;
     font-size: 20px;
     text-align: center;
-    color: black;
+    color: rgb(34, 29, 27);
 }
 
 a.aContactos {
